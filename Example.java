@@ -1,15 +1,15 @@
 public class Example {
     public static void main(String args[]){
 
-        User kenny = new User("Kenny",33);
+        User kenny = new User("Kenny",33,"Strength");
         kenny.printUser();
 
         // add another user
 
-        User rosalina = new User("Rosalina",28);
+        User rosalina = new User("Rosalina",28, "Intelligent"");
         rosalina.printUser();
 
-        User deborah = new User("Deborah", 62);
+        User deborah = new User("Deborah", 62, "Speed");
         deborah.printUser();
 
         Student charles = new Student("Charles", 28, 10);

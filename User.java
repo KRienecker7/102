@@ -8,7 +8,7 @@ public class User {
 
     //methods
     //Constructor
-    public User(String name, int age){
+    public User(String name, int age, String power){
         this.name=name;
         setAge(age);
     }
